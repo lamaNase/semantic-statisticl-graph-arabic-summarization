@@ -1,0 +1,35 @@
+.ratio-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.ratio-label {
+    font-size: 0.9rem;
+    color: #d1d5db;
+    /* light gray text for dark bg */
+}
+
+.ratio-input {
+    width: 4rem;
+    padding: 0.4rem;
+    font-size: 0.9rem;
+    border: 1px solid #4b5563;
+    /* dark border */
+    border-radius: 0.5rem;
+    background-color: #1f2937;
+    /* dark input background */
+    color: #f9fafb;
+    /* light text */
+    transition: border-color 0.2s ease-in-out, background-color 0.2s;
+}
+
+.ratio-input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    /* blue focus border */
+    background-color: #111827;
+    /* deeper dark background */
+}
