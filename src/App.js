@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef } from 'react';
 import UploadTextArea from './components/UploadTextArea';
 import RatioInput from './components/RatioInput';
 import SummaryDisplay from './components/SummaryDisplay';
