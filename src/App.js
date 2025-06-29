@@ -75,7 +75,7 @@ export default function App() {
     <div className="app-container">
       {loading && <LoadingOverlay progress={progress} />}
 
-      <h1 className="app-title">Arabic Text Summarizer</h1>
+      <h1 className="app-title">Graph Based Extractive Arabic Text Summarizer</h1>
 
       <div className="card">
         <UploadTextArea text={text} setText={setText} />
